@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header section {
+  position: relative;
   overflow: hidden;
   margin-top: 15px;
 }
@@ -41,7 +42,7 @@ header section {
 
 #logo-sect img {
   float: left;
-  margin: 10px;
+  margin: 5px 10px 0px 0px;
 }
 
 #logo-text {
@@ -61,27 +62,46 @@ header section {
 
 hr {
   background: repeating-linear-gradient(
-  40deg,
+  45deg,
   #888,
   #888 1px,
   #FFF 1px,
-  #FFF 3px
+  #FFF 2px
   );
   height: 12px;
+  margin-top: 30px;
+}
+
+main section {
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+  height: 71px;
 }
 
 #title-div {
   float: left;
-  line-height: 1em;
 }
 
 #title-div h1 {
   font-size: 3em;
+  line-height: 1em;
   font-weight: bold;
+}
+
+#title-div h5 {
+  color: #B1B1B1;
+  font-weight: 300;
+  line-height: 2em;
 }
 
 #print-div {
   float: right;
+  color: #B1B1B1;
+  font-weight: 300;
+  line-height: 9em;
+  font-size: 0.83em;
+  font-family: 'Oswald', sans-serif;
 }
 
 article {
@@ -102,21 +122,27 @@ article p {
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
-  overflow: auto;
+  overflow: hidden;
   background-image: url("images/list-bg.png");
   font-family: 'Comic Sans MS', serif;
 }
 
-#author-sect h3 {
+footer section {
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+#author-sect {
+  float: left;
   font-family: Georgia, serif;
+}
+
+#author-sect h3 {
   font-weight: bold;
 }
 
-#author-sect p {
-  font-family: Georgia, serif;
-}
-
 #share-recipe {
+  float: right;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   font-size: 1.5em;
