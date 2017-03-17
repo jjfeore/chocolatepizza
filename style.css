@@ -1,11 +1,130 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+header, main, footer {
+  width: 80%;
+  margin: 0px 10% 0px 10%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.clear-fix {
+  clear:both;
+  height: 15px;
+}
+
+header section {
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+#logo-sect {
+  float: left;
+  width: 60%;
+}
+
+#icons {
+  float: right;
+}
+
+#icons img {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+#logo-sect img {
+  float: left;
+  margin: 10px;
 }
 
 #logo-text {
   font-family: 'Yellowtail', cursive;
+  font-size: 2.3em;
+  line-height: 1em;
+  font-weight: bold;
+  color: #333;
 }
 
-#small-icon {
-  
+#logo-sect p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.8em;
+  color: #333;
+  margin: 0px;
+}
+
+hr {
+  background: repeating-linear-gradient(
+  40deg,
+  #888,
+  #888 1px,
+  #FFF 1px,
+  #FFF 3px
+  );
+  height: 12px;
+}
+
+#title-div {
+  float: left;
+  line-height: 1em;
+}
+
+#title-div h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#print-div {
+  float: right;
+}
+
+article {
+  margin-top: 15px;
+}
+
+article img {
+  width: 100%;
+}
+
+article p {
+  margin-top: 15px;
+  font-family: Georgia, serif;
+}
+
+#list-sect {
+  margin-top: 15px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-image: url("images/list-bg.png");
+  font-family: 'Comic Sans MS', serif;
+}
+
+#author-sect h3 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+#author-sect p {
+  font-family: Georgia, serif;
+}
+
+#share-recipe {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #FFF;
+  background-color: #AD5826;
+  height: 60px;
+  width: 150px;
+  text-align: center;
+  line-height: 1em;
+  vertical-align: middle;
 }
