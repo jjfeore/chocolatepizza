@@ -5,6 +5,11 @@
   padding: 0px;
 }
 
+body {
+  color: #666;
+  font-family: Georgia, serif;
+}
+
 header, main, footer {
   width: 80%;
   margin: 0px 10% 0px 10%;
@@ -66,7 +71,7 @@ hr {
   #888,
   #888 1px,
   #FFF 1px,
-  #FFF 2px
+  #FFF 3px
   );
   height: 12px;
   margin-top: 30px;
@@ -113,21 +118,35 @@ article img {
 }
 
 article p {
-  margin-top: 15px;
+  margin-top: 30px;
   font-family: Georgia, serif;
 }
 
 #list-sect {
-  margin-top: 15px;
+  margin-top: 30px;
   width: 100%;
-  background-size: contain;
   background-repeat: no-repeat;
-  overflow: hidden;
   background-image: url("images/list-bg.png");
   font-family: 'Comic Sans MS', serif;
 }
 
+.list-info {
+  display: inline-block;
+  width: 35%;
+}
+
+.spacer {
+  display: inline-block;
+  width: 10%;
+}
+
+footer {
+  display: block;
+  overflow: hidden;
+}
+
 footer section {
+  position: relative;
   overflow: hidden;
   margin-top: 15px;
 }
@@ -137,20 +156,36 @@ footer section {
   font-family: Georgia, serif;
 }
 
-#author-sect h3 {
+#author-sect img {
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+
+#auth-text {
   font-weight: bold;
+  font-size: 1.5em;
+}
+
+#author-sect p {
+  margin-top: 10px;
 }
 
 #share-recipe {
   float: right;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1em;
   color: #FFF;
   background-color: #AD5826;
-  height: 60px;
+  height: 3em;
   width: 150px;
   text-align: center;
-  line-height: 1em;
-  vertical-align: middle;
+  line-height: 3em;
+  margin-top: 10px;
+}
+
+#legal {
+  text-align: center;
+  font-size: 0.8em;
+  margin: 30px 0px 50px 0px;
 }
